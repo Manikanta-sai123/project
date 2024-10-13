@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Ticket Booking.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .banner{
+        width: auto;
+        height: 1800px;
+        background-size: cover;
+        background-position: center;
+        background-image: url("ernest-brillo-Qi8CvonsYnM-unsplash.jpg");
+    }
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px o;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    hr{
+        border-top: 2px dashed white;
+        border-radius: 20px;
+    }
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 35%;
+        transform: translate(-50);
+        text-align: center;
+    }
+    .content h1{
+        font-size: 50px;
+        margin-top: 25px;
+        color: whitesmoke;
+    }
+    .content p{
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        color: whitesmoke;
+    }
+    .container{
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid white;
+        border-radius: 20px;
+    }
+    input{
+        background: transparent;
+        border: 0px;
+        outline: 0px;
+        width: 300px;
+    }
+    .icon-search{
+        color: white;
+    }
+    ::placeholder{
+        color: white;
+        font-size: 10px;
+    }
+    #div1{
+        border: 3px solid black;
+        height: 300px;
+        width: 400px;
+        margin-top: 500px;
+        margin-left: 120px;
+    }
+    #div2{
+        border: 3px solid black;
+        height: 300px;
+        width: 400px;
+        margin-top: 50px;
+        margin-right: 120px;
+        float: right;
+    }
+    #div3{
+        clear: both;
+        border: 3px solid black;
+        height: 300px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 120px;
+        float: left;
+    }
+    .inner-footer{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        width: auto;
+        height: 200px;
+    }
+    .social-links{
+        display: flex;
+    }
+    .social-links ul{
+        padding: 10px;
+        display: flex;
+        width: 300px;
+        height: 80px;
+        margin: auto;
+    }
+    .inner-footer h3{
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    .social-items{
+        list-style: none;
+    }
+    .social-items a{
+        padding: 30px;
+        padding-left: 50px;
+        font-size: 50px;
+        color: white;
+    }
+    .social-items a:hover{
+        color: red;
+    }
+    .outer-footer{
+        background-color: skyblue;
+        width: auto;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        height: 25px;
+    }
+    #div1 button{
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 140px;
+        font-size: 15px;
+        background: transparent;
+    }
+    #div1 button:hover{
+        background-color: skyblue;
+    }
+    #div2 button{
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 140px;
+        font-size: 15px;
+        background: transparent;
+    }
+    #div3 button{
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 140px;
+        font-size: 15px;
+        background: transparent;
+    }
+    #div2 button:hover{
+        background-color: skyblue;
+    }
+    #div3 button:hover{
+        background-color: skyblue;
+    }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="online ticket.jpg" height="100" width="100" alt="logo" class="logo">
+        <div class="container">
+            <input type="text" placeholder="search">
+            <a href="#"><i class="fa fa-search icon-search"></i></a>
+        </div>
+        </div><br>
+        <hr>
+        <div class="content">
+            <h1>Book Your Tickets</h1>
+            <p>Enjoy your journey</p>
+        </div>
+        <div id="div1">
+            <img src="train.webp" height="300" width="400">
+            <a href="Book your Train.html">
+                <button>Book your Train</button>
+            </a>
+        </div>
+        <div id="div2">
+            <img src="flight.png" height="300" width="400">
+            <a href="Book your Flight.html">
+            <button>Book your flight</button>
+            </a>
+        </div>
+        <div id="div3">
+            <img src="bus.jpg" height="300" width="400">
+            <a href="Book your Buses.html">
+            <button>Book your Buses</button>
+            </a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="inner-footer">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fa fa-facebook-square" style="font-size:24px"></i> </a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
+                </ul>
+            </div>
+            <div class="outer-footer">
+                copyright &copy; Ticket Booking
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
